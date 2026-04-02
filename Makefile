@@ -260,3 +260,9 @@ endef
 #---------------------------------------------------------------------------------------
 endif
 #---------------------------------------------------------------------------------------
+
+.PHONY:  init
+init:
+	git config core.hooksPath .github/hooks
+	chmod +x .github/hooks/pre-push
+	@echo "Git hooks initialized. Pre-push hook is now active."

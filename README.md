@@ -8,11 +8,13 @@ A ready-to-use VS Code template for Nintendo 3DS homebrew development, providing
 - **Hello World starter** — A minimal working example with a simple Makefile to get you up and running
 - **IntelliSense support** — Includes a fix so VS Code correctly resolves header definitions
 - **CI/CD workflow** — GitHub Actions script to automatically build the project with docker
+- **pre-push hook** - build before every push
 
 ## Setup configuration on your project
 
 1. Clone this repository
-2. Open the folder and copy and paste .vscode in your project folder
+2. Type make init
+3. rename windows or linux-mac folder to `.vscode`
 
 ## Setup CI Workflow
 
